@@ -1,0 +1,53 @@
+.main {
+    background-color: rgba(231, 231, 231, 0.979);
+    width: 450px;
+    height: 500px;
+    margin:60px auto;
+    border: 0.3px solid black;
+    box-shadow: 0 0 8px grey;
+}
+.inputField {
+    width: 98.6% !important; 
+    height: 70px;
+    border: 0.4px solid rgba(245, 243, 243, 0.856);
+    background-color: rgba(245, 243, 243, 0.856);
+    text-align: right;
+    font-size: 40px;
+}
+.btn {
+    width: 110px;
+    height: 78px;
+    font-size: 15px;
+    margin: -2px ;
+    background-color: white;
+    border: 0.4px solid rgba(245, 243, 243, 0.856);
+}
+.btnLight {
+    background-color: rgba(255, 255, 255, 0.801);
+}
+.btnNo {
+    font-weight: bold;
+    font-size: 17px;
+}
+.inputfieldSmall {
+    width: 98%;
+    height: 30px;
+    margin-bottom: -4px;
+    font-size: 15px;
+    color: rgb(144, 142, 142);
+}
+.cal {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.cate {
+    font-size: 15px;
+    padding-left: 5px;
+}
+.cate>span {
+    margin-left: 310px;
+}
+.sizein {
+    font-size: 20px;
+}

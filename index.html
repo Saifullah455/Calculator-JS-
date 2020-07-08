@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versatile Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table class="main">
+        <div>
+            <!-- Heading -->
+            <tr>
+                <td class="cal" colspan="4">Calculator</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="cate">[Standard]
+                    <span>(History)</span>
+                </td>
+            </tr>
+            <!-- Input fields -->
+            <tr>
+                <td colspan="4">
+                    <input class="inputfieldSmall inputField" type="text" name="" id="showinput">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input class="inputField" type="text" name="" id="inputText">
+                </td>
+            </tr>
+        </div>
+        <!-- Buttons -->
+        <tr>
+            <td>
+                <button class="btn btnLight" onclick="clearResult()">C</button>
+            </td>
+            <td>
+                <button class="btn btnLight" onclick="lastElement()">CE</button>
+            </td>
+            <td>
+                <button class="btn btnLight" onclick="squaring()">x<sup>2</sup></button>
+            </td>
+            <td>
+                <button class="btn btnLight" onclick="getNumber('%')">%</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('7')">7</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('8')">8</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('9')">9</button>
+            </td>
+            <td>
+                <button class="btn btnLight sizein" onclick="getNumber('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('4')">4</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('5')">5</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('6')">6</button>
+            </td>
+            <td>
+                <button class="btn btnLight" onclick="getNumber('*')">x</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('1')">1</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('2')">2</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('3')">3</button>
+            </td>
+            <td>
+                <button class="btn btnLight sizein" onclick="getNumber('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn sizein" onclick="getResult()">=</button>
+            </td>
+            <td>
+                <button class="btn btnNo" onclick="getNumber('0')">0</button>
+            </td>
+            <td>
+                <button class="btn sizein" onclick="getNumber('.')">.</button>
+            </td>
+            <td>
+                <button class="btn btnLight sizein" onclick="getNumber('+')">+</button>
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="app.js"></script>
+
+</html>
